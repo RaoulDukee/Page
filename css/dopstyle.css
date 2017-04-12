@@ -1,7 +1,6 @@
 .head-block{
     height:250px;
-	width:1240px;
-    background:url(../images/head.jpg)left center no-repeat;
+	background:url(../images/head.jpg)left center no-repeat;
 }
 .top-menu{
     background:#daf2fe;

@@ -1949,6 +1949,16 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
       this.$element.offset({ top: document.body.offsetHeight - offsetBottom - this.$element.height() })
     }
   }
+  
+  $(document).ready(function(){
+    $('.col-md-4').each(function(){
+        var highestBox = 0;
+        $('.p ', this).each(function(){
+            if($(this).height() > highestBox) {
+                highestBox = $(this).height();
+            }
+        });
+        $('.p ',this).height(highestBox);
 
 
   // AFFIX PLUGIN DEFINITION
@@ -1997,3 +2007,6 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
   })
 
 }(window.jQuery);
+
+
+

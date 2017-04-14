@@ -1,0 +1,40 @@
+
+body{
+	background:#f7f8fa;
+}
+
+img.img-responsive { max-width: auto;
+height: 300px;
+}
+
+
+
+div.box{
+   
+    background-color: #FFFFFF; /* Цвет фона */
+      }
+
+
+
+div.description {
+	margin:5px;	
+	float: bottom;
+	height: 7em;
+}	
+/* div.price	 {
+	margin:22px;
+	margin-bottom: 1em;
+	float: left;
+
+	
+}
+
+div.btn {
+	margin:2px;
+	float: right;
+	float: left;
+}	*/
+
+
+
+

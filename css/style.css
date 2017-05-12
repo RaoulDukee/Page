@@ -3,6 +3,11 @@ center;
 margin:10px;
 }
 
+div.name {
+	margin:5px;	
+	margin-bottom: 2em;
+	height: 4em;
+}	
 
 div.description {
 	margin:5px;	

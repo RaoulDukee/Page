@@ -1,19 +1,7 @@
-
-body{
-	background:#f7f8fa;
+h2 {text-align:  
+center;
+margin:10px;
 }
-
-img.img-responsive { max-width: auto;
-height: 300px;
-}
-
-
-
-div.box{
-   
-    background-color: #FFFFFF; /* Цвет фона */
-      }
-
 
 
 div.description {
@@ -21,20 +9,16 @@ div.description {
 	float: bottom;
 	height: 7em;
 }	
-/* div.price	 {
-	margin:22px;
-	margin-bottom: 1em;
-	float: left;
 
+div.price {
+	margin-bottom: 100px;	
 	
-}
+	
+}	
 
-div.btn {
-	margin:2px;
-	float: right;
-	float: left;
-}	*/
-
+div.row {
+margin:20px;
+padding:15px;	}
 
 
 
